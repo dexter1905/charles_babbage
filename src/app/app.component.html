@@ -1,17 +1,15 @@
 <div class="container">
-  <mat-toolbar class="app-title">
-    <span class="text-mid"> title </span>
-  </mat-toolbar>
+    <mat-toolbar class="app-title">
+        <span class="text-mid">{{title}}</span>
+    </mat-toolbar>
 </div>
 
-<!-- 
+<!--
   Challenge
-   - pass appropriate parameters to functions 
+   - pass appropriate parameters to functions
    - pass the city details to the CityComponent
  -->
-<app-search
-    (selectedCity)="getCityDetails()">
+<app-search (selectedCity)="getCityDetails($event)">
 </app-search>
-<app-city
-    cityDetails="cityDetails">
+<app-city cityDetails="cityDetails">
 </app-city>
