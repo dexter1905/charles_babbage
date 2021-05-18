@@ -1,19 +1,283 @@
 [{
-        "country": "International",
-        "name": "Paris",
-        "lat": "42.46372",
-        "lng": "1.49129"
+        "title": "New York",
+        "location_type": "City",
+        "woeid": 2459115,
+        "latt_long": "40.71455,-74.007118"
     },
     {
-        "country": "International",
-        "name": "London",
-        "lat": "42.54277",
-        "lng": "1.73361"
+        "title": "Tokyo",
+        "location_type": "City",
+        "woeid": 1118370,
+        "latt_long": "35.670479,139.740921"
     },
     {
-        "country": "International",
-        "name": "Kolkata",
-        "lat": "42.55623",
-        "lng": "1.53319"
+        "title": "Osaka",
+        "location_type": "City",
+        "woeid": 15015370,
+        "latt_long": "34.6775,135.5032"
+    },
+    {
+        "title": "Jakarta",
+        "location_type": "City",
+        "woeid": 1047378,
+        "latt_long": "-6.171440,106.827820"
+    },
+    {
+        "title": "Hong Kong",
+        "location_type": "City",
+        "woeid": 2165352,
+        "latt_long": "22.411200,114.153999"
+    },
+    {
+        "title": "Jacksonville",
+        "location_type": "City",
+        "woeid": 2428344,
+        "latt_long": "30.331381,-81.655800"
+    },
+    {
+        "title": "Kiev",
+        "location_type": "City",
+        "woeid": 924938,
+        "latt_long": "50.441380,30.522490"
+    },
+    {
+        "title": "Milwaukee",
+        "location_type": "City",
+        "woeid": 2451822,
+        "latt_long": "43.041809,-87.906837"
+    },
+    {
+        "title": "Wakefield",
+        "location_type": "City",
+        "woeid": 38952,
+        "latt_long": "53.677631,-1.509510"
+    },
+    {
+        "title": "Karachi",
+        "location_type": "City",
+        "woeid": 2211096,
+        "latt_long": "24.889780,67.028511"
+    },
+    {
+        "title": "Oklahoma City",
+        "location_type": "City",
+        "woeid": 2464592,
+        "latt_long": "35.472000,-97.520348"
+    },
+    {
+        "title": "Kolkata",
+        "location_type": "City",
+        "woeid": 2295386,
+        "latt_long": "22.549940,88.371582"
+    },
+    {
+        "title": "Kinshasa",
+        "location_type": "City",
+        "woeid": 1290062,
+        "latt_long": "-4.316420,15.298340"
+    },
+    {
+        "title": "Auckland",
+        "location_type": "City",
+        "woeid": 2348079,
+        "latt_long": "-36.884109,174.770416"
+    },
+    {
+        "title": "Kansas City",
+        "location_type": "Region / State / Province",
+        "woeid": 2430683,
+        "latt_long": "39.102951,-94.583061"
+    },
+    {
+        "title": "Bangkok",
+        "location_type": "City",
+        "woeid": 1225448,
+        "latt_long": "13.753330,100.504822"
+    },
+    {
+        "title": "Yokohama",
+        "location_type": "City",
+        "woeid": 1118550,
+        "latt_long": "35.452702,139.595123"
+    },
+    {
+        "title": "Dhaka",
+        "location_type": "City",
+        "woeid": 1915035,
+        "latt_long": "23.709801,90.407112"
+    },
+    {
+        "title": "Ankara",
+        "location_type": "City",
+        "woeid": 2343732,
+        "latt_long": "39.942928,32.860481"
+    },
+    {
+        "title": "Little Rock",
+        "location_type": "City",
+        "woeid": 2440351,
+        "latt_long": "34.748650,-92.274490"
+    },
+    {
+        "title": "Reykjavík",
+        "location_type": "City",
+        "woeid": 980389,
+        "latt_long": "64.137383,-21.902479"
+    },
+    {
+        "title": "Stockholm",
+        "location_type": "City",
+        "woeid": 906057,
+        "latt_long": "59.332169,18.062429"
+    },
+    {
+        "title": "Stoke-on-Trent",
+        "location_type": "City",
+        "woeid": 36240,
+        "latt_long": "53.018581,-2.16596"
+    },
+    {
+        "title": "Phuket",
+        "location_type": "City",
+        "woeid": 1226113,
+        "latt_long": "7.88997,98.388458"
+    },
+    {
+        "title": "Lake Tahoe",
+        "location_type": "City",
+        "woeid": 23511744,
+        "latt_long": "39.021400,-120.044823"
+    },
+    {
+        "title": "Kawasaki",
+        "location_type": "City",
+        "woeid": 1117502,
+        "latt_long": "35.556332,139.675201"
+    },
+    {
+        "title": "Kyoto",
+        "location_type": "City",
+        "woeid": 15015372,
+        "latt_long": "35.098129,135.718933"
+    },
+    {
+        "title": "Kobe",
+        "location_type": "City",
+        "woeid": 1117545,
+        "latt_long": "34.757332,135.106766"
+    },
+    {
+        "title": "Blackpool",
+        "location_type": "City",
+        "woeid": 12903,
+        "latt_long": "53.825069,-3.020750"
+    },
+    {
+        "title": "Bakersfield",
+        "location_type": "City",
+        "woeid": 2358492,
+        "latt_long": "35.351189,-119.024063"
+    },
+    {
+        "title": "Salt Lake City",
+        "location_type": "City",
+        "woeid": 2487610,
+        "latt_long": "40.759499,-111.888229"
+    },
+    {
+        "title": "Kharkiv",
+        "location_type": "City",
+        "woeid": 922137,
+        "latt_long": "49.990101,36.230301"
+    },
+    {
+        "title": "Helsinki",
+        "location_type": "City",
+        "woeid": 565346,
+        "latt_long": "60.171162,24.932581"
+    },
+    {
+        "title": "Oakland",
+        "location_type": "City",
+        "woeid": 2463583,
+        "latt_long": "37.80508,-122.273071"
+    },
+    {
+        "title": "Minsk",
+        "location_type": "City",
+        "woeid": 834463,
+        "latt_long": "53.90255,27.563101"
+    },
+    {
+        "title": "Kirkwall",
+        "location_type": "City",
+        "woeid": 25462,
+        "latt_long": "58.981731,-2.96042"
+    },
+    {
+        "title": "Jackson",
+        "location_type": "City",
+        "woeid": 2428184,
+        "latt_long": "32.298691,-90.180489"
+    },
+    {
+        "title": "Kano",
+        "location_type": "City",
+        "woeid": 1396803,
+        "latt_long": "11.988800,8.522990"
+    },
+    {
+        "title": "Kitakyushu",
+        "location_type": "City",
+        "woeid": 1110809,
+        "latt_long": "33.845470,130.848557"
+    },
+    {
+        "title": "Frankfurt",
+        "location_type": "City",
+        "woeid": 650272,
+        "latt_long": "50.112080,8.683410"
+    },
+    {
+        "title": "Fukuoka",
+        "location_type": "City",
+        "woeid": 1117099,
+        "latt_long": "33.568699,130.346359"
+    },
+    {
+        "title": "Newark",
+        "location_type": "City",
+        "woeid": 2459269,
+        "latt_long": "40.731972,-74.174179"
+    },
+    {
+        "title": "Manukau",
+        "location_type": "City",
+        "woeid": 2349386,
+        "latt_long": "-36.98967,174.881454"
+    },
+    {
+        "title": "Kingston upon Hull",
+        "location_type": "City",
+        "woeid": 25211,
+        "latt_long": "53.743198,-0.345850"
+    },
+    {
+        "title": "Windhoek",
+        "location_type": "City",
+        "woeid": 1466719,
+        "latt_long": "-22.559561,17.08445"
+    },
+    {
+        "title": "York",
+        "location_type": "City",
+        "woeid": 41415,
+        "latt_long": "53.96196,-1.09045"
+    },
+    {
+        "title": "Kuala Lumpur",
+        "location_type": "City",
+        "woeid": 1154781,
+        "latt_long": "3.152480,101.717270"
     }
 ]

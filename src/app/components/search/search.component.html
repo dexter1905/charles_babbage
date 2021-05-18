@@ -22,7 +22,7 @@
         -->
         <mat-list role="list" *ngIf="searchResults.length">
             <mat-list-item role="listitem" *ngFor="let result of searchResults" (click)="selectedLocation(result)" class="searchItem">
-                {{result}}
+                {{result.title}}
                 <mat-divider></mat-divider>
             </mat-list-item>
         </mat-list>

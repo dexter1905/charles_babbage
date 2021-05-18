@@ -26,12 +26,12 @@ describe('CityComponent', () => {
     fixture = TestBed.createComponent(CityComponent);
     component = fixture.componentInstance;
     component.cityDetails = {
-      city: 'chennai',
+      city: 'kolkata',
       country: 'india',
       weather: [
         {
-          date: '2018-08-03',
-          temperature: 31.105,
+          date: '2021-05-18',
+          temperature: 37.915,
           weather_name: 'sunny',
           weather_image: 'some image url',
         }
@@ -41,15 +41,15 @@ describe('CityComponent', () => {
   });
   it('should display city and country', () => {
     const cityEl = fixture.debugElement.query(By.css('.cityName')).nativeElement;
-    expect(cityEl.textContent).toContain('chennai, india');
+    expect(cityEl.textContent).toContain('kolkata, india');
   });
   it('should display formatted date', () => {
     const dateEl = fixture.debugElement.query(By.css('.date')).nativeElement;
-    expect(dateEl.textContent).toContain('Aug 3, 2018');
+    expect(dateEl.textContent).toContain('May 18, 2021');
   });
   it('should display temperature with only 1 decimal', () => {
     const tempEl = fixture.debugElement.query(By.css('.cityTemp')).nativeElement;
-    expect(tempEl.textContent).toContain('31.1');
+    expect(tempEl.textContent).toContain('37.9');
   });
   it('should display temperature with minimum 2 digits left to decimal', () => {
     const tempEl = fixture.debugElement.query(By.css('.cityTemp')).nativeElement;
